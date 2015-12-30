@@ -1,1 +1,2 @@
-WetabDemo/WetabDemo.xcodeproj/xcuserdata
+WetabDemo/WetabDemo.xcodeproj/xcuserdata/**/*
+WetabDemo/WetabDemo.xcodeproj/project.xcworkspace/xcuserdata/**/*
