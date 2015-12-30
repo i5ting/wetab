@@ -2,6 +2,12 @@
 
 ![](doc/wetab.gif)
 
+## Install
+
+```
+pod install wetab
+```
+
 ## 用法
 
 ```
