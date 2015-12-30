@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start":"pod trunk push .",
-    "test":"pod trunk register i5ting@126.com 'alfred sang' --description='macbook pro'"
+    "test":"pod trunk register shiren118@126.com 'alfred sang' --description='macbook pro'"
   },
   "repository": {
     "type": "git",

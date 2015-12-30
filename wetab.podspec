@@ -1,7 +1,9 @@
 Pod::Spec.new do |s|
   s.name     = 'wetab'
   s.version  = '1.0.0'
-  s.license  = 'MIT'
+  # s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "./LICENSE" }
+  
   s.summary  = 'a iOS tabbar.'
   s.homepage = 'https://github.com/i5ting/wetab'
   s.author   = { 'alfred sang' => 'shiren1118@126.com' }
