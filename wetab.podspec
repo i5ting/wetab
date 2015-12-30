@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'a iOS tabbar.'
   s.homepage = 'https://github.com/i5ting/wetab'
   s.author   = { 'alfred sang' => 'shiren1118@126.com' }
-  s.social_media_url = "http://twitter.com/i5ting"
-
+  # s.social_media_url = "http://twitter.com/i5ting"
   s.source   = { :git => 'https://github.com/i5ting/wetab.git' , :tag => "1.0.0"}
 
   s.description = %{
