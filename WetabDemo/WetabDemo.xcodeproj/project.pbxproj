@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254401701C336D2600944184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544016F1C336D2600944184 /* main.m */; };
+		254401731C336D2600944184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401721C336D2600944184 /* AppDelegate.m */; };
+		254401761C336D2600944184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401751C336D2600944184 /* ViewController.m */; };
+		254401791C336D2600944184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401771C336D2600944184 /* Main.storyboard */; };
+		2544017C1C336D2600944184 /* WetabDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2544017A1C336D2600944184 /* WetabDemo.xcdatamodeld */; };
+		254401811C336D2600944184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544017F1C336D2600944184 /* LaunchScreen.storyboard */; };
+		2544018C1C336D2600944184 /* WetabDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544018B1C336D2600944184 /* WetabDemoTests.m */; };
+		254401971C336D2700944184 /* WetabDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401961C336D2700944184 /* WetabDemoUITests.m */; };
+		254401E71C336D6200944184 /* WeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E21C336D6200944184 /* WeTabBar.m */; };
+		254401E81C336D6200944184 /* WeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E21C336D6200944184 /* WeTabBar.m */; };
+		254401E91C336D6200944184 /* WeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E21C336D6200944184 /* WeTabBar.m */; };
+		254401EA1C336D6200944184 /* WeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E41C336D6200944184 /* WeTabBarController.m */; };
+		254401EB1C336D6200944184 /* WeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E41C336D6200944184 /* WeTabBarController.m */; };
+		254401EC1C336D6200944184 /* WeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E41C336D6200944184 /* WeTabBarController.m */; };
+		254401ED1C336D6200944184 /* WeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E61C336D6200944184 /* WeTabBarItem.m */; };
+		254401EE1C336D6200944184 /* WeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E61C336D6200944184 /* WeTabBarItem.m */; };
+		254401EF1C336D6200944184 /* WeTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 254401E61C336D6200944184 /* WeTabBarItem.m */; };
+		254401F31C3373C400944184 /* a.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F21C3373C400944184 /* a.storyboard */; };
+		254401F41C3373C400944184 /* a.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F21C3373C400944184 /* a.storyboard */; };
+		254401F51C3373C400944184 /* a.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F21C3373C400944184 /* a.storyboard */; };
+		254401F71C3373D800944184 /* b.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F61C3373D800944184 /* b.storyboard */; };
+		254401F81C3373D800944184 /* b.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F61C3373D800944184 /* b.storyboard */; };
+		254401F91C3373D800944184 /* b.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401F61C3373D800944184 /* b.storyboard */; };
+		254401FB1C3373EC00944184 /* c.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FA1C3373EC00944184 /* c.storyboard */; };
+		254401FC1C3373EC00944184 /* c.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FA1C3373EC00944184 /* c.storyboard */; };
+		254401FD1C3373EC00944184 /* c.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FA1C3373EC00944184 /* c.storyboard */; };
+		254401FF1C3373FD00944184 /* d.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FE1C3373FD00944184 /* d.storyboard */; };
+		254402001C3373FD00944184 /* d.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FE1C3373FD00944184 /* d.storyboard */; };
+		254402011C3373FD00944184 /* d.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254401FE1C3373FD00944184 /* d.storyboard */; };
+		254402031C3374A000944184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254402021C3374A000944184 /* Assets.xcassets */; };
+		254402041C3374A000944184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254402021C3374A000944184 /* Assets.xcassets */; };
+		254402051C3374A000944184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254402021C3374A000944184 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254401881C336D2600944184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254401631C336D2600944184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2544016A1C336D2600944184;
+			remoteInfo = WetabDemo;
+		};
+		254401931C336D2600944184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254401631C336D2600944184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2544016A1C336D2600944184;
+			remoteInfo = WetabDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2544016B1C336D2600944184 /* WetabDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetabDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2544016F1C336D2600944184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254401711C336D2600944184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		254401721C336D2600944184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		254401741C336D2600944184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		254401751C336D2600944184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		254401781C336D2600944184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2544017B1C336D2600944184 /* WetabDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WetabDemo.xcdatamodel; sourceTree = "<group>"; };
+		254401801C336D2600944184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254401821C336D2600944184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254401871C336D2600944184 /* WetabDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetabDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2544018B1C336D2600944184 /* WetabDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetabDemoTests.m; sourceTree = "<group>"; };
+		2544018D1C336D2600944184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254401921C336D2600944184 /* WetabDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetabDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254401961C336D2700944184 /* WetabDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetabDemoUITests.m; sourceTree = "<group>"; };
+		254401981C336D2700944184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254401E11C336D6200944184 /* WeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeTabBar.h; sourceTree = "<group>"; };
+		254401E21C336D6200944184 /* WeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeTabBar.m; sourceTree = "<group>"; };
+		254401E31C336D6200944184 /* WeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeTabBarController.h; sourceTree = "<group>"; };
+		254401E41C336D6200944184 /* WeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeTabBarController.m; sourceTree = "<group>"; };
+		254401E51C336D6200944184 /* WeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeTabBarItem.h; sourceTree = "<group>"; };
+		254401E61C336D6200944184 /* WeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeTabBarItem.m; sourceTree = "<group>"; };
+		254401F01C336D9800944184 /* WeTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeTab.h; sourceTree = "<group>"; };
+		254401F21C3373C400944184 /* a.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = a.storyboard; sourceTree = "<group>"; };
+		254401F61C3373D800944184 /* b.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = b.storyboard; sourceTree = "<group>"; };
+		254401FA1C3373EC00944184 /* c.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = c.storyboard; sourceTree = "<group>"; };
+		254401FE1C3373FD00944184 /* d.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = d.storyboard; sourceTree = "<group>"; };
+		254402021C3374A000944184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254401681C336D2600944184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254401841C336D2600944184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2544018F1C336D2600944184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254401621C336D2600944184 = {
+			isa = PBXGroup;
+			children = (
+				254401E01C336D6200944184 /* Wetab */,
+				2544016D1C336D2600944184 /* WetabDemo */,
+				2544018A1C336D2600944184 /* WetabDemoTests */,
+				254401951C336D2700944184 /* WetabDemoUITests */,
+				2544016C1C336D2600944184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2544016C1C336D2600944184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2544016B1C336D2600944184 /* WetabDemo.app */,
+				254401871C336D2600944184 /* WetabDemoTests.xctest */,
+				254401921C336D2600944184 /* WetabDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2544016D1C336D2600944184 /* WetabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				254401F11C3373B900944184 /* tab */,
+				254401711C336D2600944184 /* AppDelegate.h */,
+				254401721C336D2600944184 /* AppDelegate.m */,
+				254401741C336D2600944184 /* ViewController.h */,
+				254401751C336D2600944184 /* ViewController.m */,
+				254401771C336D2600944184 /* Main.storyboard */,
+				2544017F1C336D2600944184 /* LaunchScreen.storyboard */,
+				254402021C3374A000944184 /* Assets.xcassets */,
+				254401821C336D2600944184 /* Info.plist */,
+				2544017A1C336D2600944184 /* WetabDemo.xcdatamodeld */,
+				2544016E1C336D2600944184 /* Supporting Files */,
+			);
+			path = WetabDemo;
+			sourceTree = "<group>";
+		};
+		2544016E1C336D2600944184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2544016F1C336D2600944184 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2544018A1C336D2600944184 /* WetabDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2544018B1C336D2600944184 /* WetabDemoTests.m */,
+				2544018D1C336D2600944184 /* Info.plist */,
+			);
+			path = WetabDemoTests;
+			sourceTree = "<group>";
+		};
+		254401951C336D2700944184 /* WetabDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254401961C336D2700944184 /* WetabDemoUITests.m */,
+				254401981C336D2700944184 /* Info.plist */,
+			);
+			path = WetabDemoUITests;
+			sourceTree = "<group>";
+		};
+		254401E01C336D6200944184 /* Wetab */ = {
+			isa = PBXGroup;
+			children = (
+				254401F01C336D9800944184 /* WeTab.h */,
+				254401E11C336D6200944184 /* WeTabBar.h */,
+				254401E21C336D6200944184 /* WeTabBar.m */,
+				254401E31C336D6200944184 /* WeTabBarController.h */,
+				254401E41C336D6200944184 /* WeTabBarController.m */,
+				254401E51C336D6200944184 /* WeTabBarItem.h */,
+				254401E61C336D6200944184 /* WeTabBarItem.m */,
+			);
+			name = Wetab;
+			path = ../Wetab;
+			sourceTree = "<group>";
+		};
+		254401F11C3373B900944184 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				254401F21C3373C400944184 /* a.storyboard */,
+				254401F61C3373D800944184 /* b.storyboard */,
+				254401FA1C3373EC00944184 /* c.storyboard */,
+				254401FE1C3373FD00944184 /* d.storyboard */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2544016A1C336D2600944184 /* WetabDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2544019B1C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemo" */;
+			buildPhases = (
+				254401671C336D2600944184 /* Sources */,
+				254401681C336D2600944184 /* Frameworks */,
+				254401691C336D2600944184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WetabDemo;
+			productName = WetabDemo;
+			productReference = 2544016B1C336D2600944184 /* WetabDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254401861C336D2600944184 /* WetabDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2544019E1C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemoTests" */;
+			buildPhases = (
+				254401831C336D2600944184 /* Sources */,
+				254401841C336D2600944184 /* Frameworks */,
+				254401851C336D2600944184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254401891C336D2600944184 /* PBXTargetDependency */,
+			);
+			name = WetabDemoTests;
+			productName = WetabDemoTests;
+			productReference = 254401871C336D2600944184 /* WetabDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254401911C336D2600944184 /* WetabDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254401A11C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemoUITests" */;
+			buildPhases = (
+				2544018E1C336D2600944184 /* Sources */,
+				2544018F1C336D2600944184 /* Frameworks */,
+				254401901C336D2600944184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254401941C336D2600944184 /* PBXTargetDependency */,
+			);
+			name = WetabDemoUITests;
+			productName = WetabDemoUITests;
+			productReference = 254401921C336D2600944184 /* WetabDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254401631C336D2600944184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = aircos;
+				TargetAttributes = {
+					2544016A1C336D2600944184 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					254401861C336D2600944184 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2544016A1C336D2600944184;
+					};
+					254401911C336D2600944184 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2544016A1C336D2600944184;
+					};
+				};
+			};
+			buildConfigurationList = 254401661C336D2600944184 /* Build configuration list for PBXProject "WetabDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254401621C336D2600944184;
+			productRefGroup = 2544016C1C336D2600944184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2544016A1C336D2600944184 /* WetabDemo */,
+				254401861C336D2600944184 /* WetabDemoTests */,
+				254401911C336D2600944184 /* WetabDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254401691C336D2600944184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401FF1C3373FD00944184 /* d.storyboard in Resources */,
+				254401FB1C3373EC00944184 /* c.storyboard in Resources */,
+				254401F31C3373C400944184 /* a.storyboard in Resources */,
+				254401811C336D2600944184 /* LaunchScreen.storyboard in Resources */,
+				254402031C3374A000944184 /* Assets.xcassets in Resources */,
+				254401F71C3373D800944184 /* b.storyboard in Resources */,
+				254401791C336D2600944184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254401851C336D2600944184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401FC1C3373EC00944184 /* c.storyboard in Resources */,
+				254401F41C3373C400944184 /* a.storyboard in Resources */,
+				254401F81C3373D800944184 /* b.storyboard in Resources */,
+				254402001C3373FD00944184 /* d.storyboard in Resources */,
+				254402041C3374A000944184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254401901C336D2600944184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401FD1C3373EC00944184 /* c.storyboard in Resources */,
+				254401F51C3373C400944184 /* a.storyboard in Resources */,
+				254401F91C3373D800944184 /* b.storyboard in Resources */,
+				254402011C3373FD00944184 /* d.storyboard in Resources */,
+				254402051C3374A000944184 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254401671C336D2600944184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401ED1C336D6200944184 /* WeTabBarItem.m in Sources */,
+				254401761C336D2600944184 /* ViewController.m in Sources */,
+				254401EA1C336D6200944184 /* WeTabBarController.m in Sources */,
+				254401731C336D2600944184 /* AppDelegate.m in Sources */,
+				2544017C1C336D2600944184 /* WetabDemo.xcdatamodeld in Sources */,
+				254401E71C336D6200944184 /* WeTabBar.m in Sources */,
+				254401701C336D2600944184 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254401831C336D2600944184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401EE1C336D6200944184 /* WeTabBarItem.m in Sources */,
+				2544018C1C336D2600944184 /* WetabDemoTests.m in Sources */,
+				254401EB1C336D6200944184 /* WeTabBarController.m in Sources */,
+				254401E81C336D6200944184 /* WeTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2544018E1C336D2600944184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254401EF1C336D6200944184 /* WeTabBarItem.m in Sources */,
+				254401971C336D2700944184 /* WetabDemoUITests.m in Sources */,
+				254401EC1C336D6200944184 /* WeTabBarController.m in Sources */,
+				254401E91C336D6200944184 /* WeTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254401891C336D2600944184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2544016A1C336D2600944184 /* WetabDemo */;
+			targetProxy = 254401881C336D2600944184 /* PBXContainerItemProxy */;
+		};
+		254401941C336D2600944184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2544016A1C336D2600944184 /* WetabDemo */;
+			targetProxy = 254401931C336D2600944184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254401771C336D2600944184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254401781C336D2600944184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2544017F1C336D2600944184 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254401801C336D2600944184 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254401991C336D2700944184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2544019A1C336D2700944184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2544019C1C336D2700944184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WetabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2544019D1C336D2700944184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WetabDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2544019F1C336D2700944184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WetabDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WetabDemo.app/WetabDemo";
+			};
+			name = Debug;
+		};
+		254401A01C336D2700944184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WetabDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WetabDemo.app/WetabDemo";
+			};
+			name = Release;
+		};
+		254401A21C336D2700944184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WetabDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WetabDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		254401A31C336D2700944184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WetabDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aircos.WetabDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WetabDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254401661C336D2600944184 /* Build configuration list for PBXProject "WetabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254401991C336D2700944184 /* Debug */,
+				2544019A1C336D2700944184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2544019B1C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544019C1C336D2700944184 /* Debug */,
+				2544019D1C336D2700944184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2544019E1C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544019F1C336D2700944184 /* Debug */,
+				254401A01C336D2700944184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		254401A11C336D2700944184 /* Build configuration list for PBXNativeTarget "WetabDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254401A21C336D2700944184 /* Debug */,
+				254401A31C336D2700944184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2544017A1C336D2600944184 /* WetabDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2544017B1C336D2600944184 /* WetabDemo.xcdatamodel */,
+			);
+			currentVersion = 2544017B1C336D2600944184 /* WetabDemo.xcdatamodel */;
+			path = WetabDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 254401631C336D2600944184 /* Project object */;
+}
