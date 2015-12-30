@@ -1,0 +1,23 @@
+{
+  "name": "wetab",
+  "version": "1.0.0",
+  "description": "![](doc/wetab.gif)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start":"pod trunk push .",
+    "test":"pod trunk register i5ting@126.com 'alfred sang' --description='macbook pro'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/wetab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/wetab/issues"
+  },
+  "homepage": "https://github.com/i5ting/wetab#readme"
+}
