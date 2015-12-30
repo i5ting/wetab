@@ -1,5 +1,7 @@
 # wetab
 
+![doc/wetab.gif]
+
 ## 用法
 
 ```
