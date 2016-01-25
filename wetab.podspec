@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'wetab'
-  s.version  = '1.0.1'
+  s.version  = '1.0.2'
   # s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "./LICENSE" }
   
