@@ -1,5 +1,3 @@
-#import "WeTabBarItem.h"
-
 #define kAnimateRate    0.1
 
 @implementation WeTabBarItem

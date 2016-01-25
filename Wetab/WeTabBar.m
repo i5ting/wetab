@@ -1,4 +1,5 @@
-#import "WeTab.h"
+#import "WeTabBar.h"
+#import "WeTabBarItem.h"
 
 #define kTagGap     5000
 

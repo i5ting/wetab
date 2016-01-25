@@ -1,4 +1,3 @@
-#import "WeTab.h"
 
 @interface WeTabBarController ()<UIScrollViewDelegate>
 
@@ -19,6 +18,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 
 @synthesize enableScroll;
 @synthesize showTopline;
+//@synthesize selectedIndex;
 
 #pragma mark - life cycle
 
@@ -125,7 +125,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     
-    _selectedIndex = (int)scrollView.contentOffset.x / SCREEN_WIDTH;
+    self.selectedIndex = (int)scrollView.contentOffset.x / SCREEN_WIDTH;
 }
 
 
@@ -186,12 +186,23 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 
 - (void)setSelectIndex:(int)selectIndex {
     
-    _selectedIndex = selectIndex;
+    self.selectedIndex = selectIndex;
     if (self.tabBar) {
         [self.tabBar selectItemAtIndex:selectIndex];
     }
 }
-
+// 跳转到某个tab
+- (void)selectTo:(int)i
+{
+    self.selectedIndex = i;
+    if (self.tabBar) {
+        [self.tabBar selectItemAtIndex:i];
+        CGPoint targetP = CGPointMake(SCREEN_WIDTH*_selectedIndex, 0);
+        
+        [self.scrollView setContentOffset:targetP animated:NO];
+//        [self addViewControllerAtIndex:i];
+    }
+}
 
 - (void)hide{
     [self.tabBar hide];

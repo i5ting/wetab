@@ -85,3 +85,9 @@ or
 ```
 [[WeTabBarController sharedWeTabBarController] hide];
 ```
+
+
+### 跳转
+
+[[WeTabBarController sharedWeTabBarController] selectTo:2];
+

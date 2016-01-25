@@ -69,7 +69,7 @@ return __singleton__; \
 
 
 
-
+#import <UIKit/UIKit.h>
 #import "WeTabBar.h"
 #import "WeTabBarController.h"
 #import "WeTabBarItem.h"

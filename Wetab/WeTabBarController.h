@@ -1,5 +1,4 @@
 #import <UIKit/UIKit.h>
-#import "WeTab.h"
 
 @class WeTabBar;
 
@@ -28,5 +27,8 @@ DEFINE_SINGLETON_FOR_HEADER(WeTabBarController)
 
 - (void)hide;
 - (void)show;
+
+// 跳转到某个tab
+- (void)selectTo:(int)i;
 
 @end

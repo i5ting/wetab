@@ -33,7 +33,14 @@
     
     [self initRootViewController];
     
+    [self performSelector:@selector(goto) withObject:nil afterDelay:1];
+    
     return YES;
+}
+
+- (void)goto
+{
+    [[WeTabBarController sharedWeTabBarController] selectTo:2];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

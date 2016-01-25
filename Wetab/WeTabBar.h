@@ -1,5 +1,3 @@
-#import <UIKit/UIKit.h>
-#import "WeTab.h"
 
 typedef void (^WeTabBarItemSelected)( NSInteger selectedIndex, NSInteger currentIndex);
 
