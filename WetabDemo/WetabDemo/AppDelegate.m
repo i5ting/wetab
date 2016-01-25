@@ -179,7 +179,7 @@
                                                      image:[UIImage imageNamed:@"tabbar_me"]
                                              selectedImage:[UIImage imageNamed:@"tabbar_meHL"]];
     
-    WeTabBar *tabBar = [[WeTabBar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-49, SCREEN_WIDTH, 49)];
+    WeTabBar *tabBar = [[WeTabBar alloc] initWithFrame:CGRectMake(0, WE_SCREEN_HEIGHT-49, WE_SCREEN_WIDTH, 49)];
     tabBar.tag  = 10000;
     tabBar.tabBarItems = @[chatItem, contactsItem, discoverItem, mineItem];
     

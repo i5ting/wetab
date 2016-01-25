@@ -14,7 +14,7 @@
 
 @implementation WeTabBarController
 
-DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
+WE_DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 
 @synthesize enableScroll;
 @synthesize showTopline;
@@ -34,7 +34,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
     __weak __typeof(self)weakSelf = self;
     self.tabBar.tabBarItemSelected = ^(NSInteger selectedIndex, NSInteger currentIndex) {
         
-        CGPoint targetP = CGPointMake(SCREEN_WIDTH*selectedIndex, 0);
+        CGPoint targetP = CGPointMake(WE_SCREEN_WIDTH*selectedIndex, 0);
         
         [weakSelf.scrollView setContentOffset:targetP animated:NO];
     };
@@ -68,7 +68,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 #pragma mark - UIScrollviewDelegate
 
 - (void)layoutChildViewControllers{
-    int currentPage = (int)self.scrollView.contentOffset.x / SCREEN_WIDTH;
+    int currentPage = (int)self.scrollView.contentOffset.x / WE_SCREEN_WIDTH;
     int start,end;
     if (currentPage == 0) {
         start = currentPage;
@@ -125,7 +125,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     
-    self.selectedIndex = (int)scrollView.contentOffset.x / SCREEN_WIDTH;
+    self.selectedIndex = (int)scrollView.contentOffset.x / WE_SCREEN_WIDTH;
 }
 
 
@@ -155,7 +155,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
     
     if (!_tabBar) {
     
-        CGRect frame = CGRectMake(0, SCREEN_HEIGHT - TabBarHeight, SCREEN_WIDTH, TabBarHeight);
+        CGRect frame = WE_VIEWCONTROLLER_FRAME;
         _tabBar = [[WeTabBar alloc] initWithFrame:frame];
         _tabBar.backgroundColor = [UIColor yellowColor];
     }
@@ -197,7 +197,7 @@ DEFINE_SINGLETON_FOR_CLASS(WeTabBarController)
     self.selectedIndex = i;
     if (self.tabBar) {
         [self.tabBar selectItemAtIndex:i];
-        CGPoint targetP = CGPointMake(SCREEN_WIDTH*_selectedIndex, 0);
+        CGPoint targetP = CGPointMake(WE_SCREEN_WIDTH*_selectedIndex, 0);
         
         [self.scrollView setContentOffset:targetP animated:NO];
 //        [self addViewControllerAtIndex:i];

@@ -4,7 +4,7 @@
 
 @interface WeTabBarController : UIViewController
 
-DEFINE_SINGLETON_FOR_HEADER(WeTabBarController)
+WE_DEFINE_SINGLETON_FOR_HEADER(WeTabBarController)
 
 /**< 视图控制器集合 */
 @property (nonatomic, copy)   NSArray * viewControllers;

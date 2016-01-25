@@ -25,7 +25,7 @@
     
     self = [super init];
     if (self) {
-        [self config:CGRectMake(0, SCREEN_HEIGHT-TabBarHeight, SCREEN_WIDTH, TabBarHeight)];
+        [self config:WE_VIEWCONTROLLER_FRAME];
     }
     return self;
 }
@@ -34,7 +34,7 @@
     
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self config:CGRectMake(0, SCREEN_HEIGHT-TabBarHeight, SCREEN_WIDTH, TabBarHeight)];
+        [self config:WE_VIEWCONTROLLER_FRAME];
     }
     return self;
 }
@@ -67,7 +67,7 @@
 - (void)setShowTopline:(BOOL)flag{
 //    self.showTopline = flag;
     if (flag) {
-        UIImageView *topLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 1)];
+        UIImageView *topLine = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, WE_SCREEN_WIDTH, 1)];
         topLine.image = [UIImage imageNamed:@"tabbar_top"];
         [self addSubview:topLine];
     }
@@ -75,7 +75,7 @@
 
 - (void)addItems {
     
-    CGFloat buttonWidth = SCREEN_WIDTH/_tabBarItems.count;
+    CGFloat buttonWidth = WE_SCREEN_WIDTH/_tabBarItems.count;
     CGFloat tabBarHeight = m_tabBarRect.size.height;
     
     for (int i=0; i<_tabBarItems.count; ++i) {
@@ -159,7 +159,7 @@
 
 - (void)show
 {
-    self.frame = CGRectMake(0, SCREEN_HEIGHT-TabBarHeight, SCREEN_WIDTH, TabBarHeight);
+    self.frame = WE_VIEWCONTROLLER_FRAME;
     self.hidden = NO;
 }
 
